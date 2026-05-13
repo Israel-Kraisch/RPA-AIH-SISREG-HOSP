@@ -1,0 +1,340 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=42C56
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para CER MACRO GOESTE 4SDR - Código 42C56
+; =============================================================================
+
+[2378116]
+nome = ASSOCIACAO BENEFICIENTE HOSPITAL SAO LUCAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2411245]
+nome = ASSOCIACAO HOSPITALAR DE VARGEAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2538571]
+nome = ASSOCIACAO HOSPITALAR PE JOAO BERTHIER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2538342]
+nome = BENEFICENCIA CAMILIANA DO SUL HOSPITAL SAO BERNARDO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2543443]
+nome = CASAVITTA SANTE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378876]
+nome = FUNDACAO MEDICA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2538083]
+nome = HOSPITAL CAIBI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2553163]
+nome = HOSPITAL CAXAMBU DO SUL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378809]
+nome = HOSPITAL CEDRO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2626667]
+nome = HOSPITAL CUNHA PORA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[7286082]
+nome = HOSPITAL DA CRIANCA AUGUSTA MULLER BOHNER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2553155]
+nome = HOSPITAL DA FUNDACAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378183]
+nome = HOSPITAL DE IPORA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2553066]
+nome = HOSPITAL DE MODELO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2537826]
+nome = HOSPITAL DE PINHALZINHO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378140]
+nome = HOSPITAL DE TUNAPOLIS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2411415]
+nome = HOSPITAL FREI BRUNO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378175]
+nome = HOSPITAL GUARUJA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378108]
+nome = HOSPITAL MONDAI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2537958]
+nome = HOSPITAL NOSSA SENHORA DA SAUDE CORONEL FREITAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2538148]
+nome = HOSPITAL NOVA ERECHIM
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378213]
+nome = HOSPITAL PALMA SOLA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2664984]
+nome = HOSPITAL PALMITOS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2537788]
+nome = HOSPITAL REGIONAL DO OESTE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2411393]
+nome = HOSPITAL REGIONAL SAO PAULO ASSEC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[6683134]
+nome = HOSPITAL REGIONAL TEREZINHA GAIO BASSO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2410834]
+nome = HOSPITAL ROGACIONISTA EVANGELICO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2378167]
+nome = HOSPITAL SANTA CASA RURAL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2411164]
+nome = HOSPITAL SANTA LUZIA DE DEOLINDO JOSE BAGGIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2537850]
+nome = HOSPITAL SANTO ANTONIO CAMPO ERE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2652099]
+nome = HOSPITAL SAO CRISTOVAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2538180]
+nome = HOSPITAL SAO JOSE DE MARAVILHA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[2538229]
+nome = HOSPITAL SAUDADES
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+[5749018]
+nome = INSTITUTO SANTE HOSPITAL SAGRADA FAMILIA ITAPIRANGA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO GOESTE (42C56)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO GOESTE NAO MAPEADA (CER 42C56)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C56
+lesao = leve
+; gravissima grave

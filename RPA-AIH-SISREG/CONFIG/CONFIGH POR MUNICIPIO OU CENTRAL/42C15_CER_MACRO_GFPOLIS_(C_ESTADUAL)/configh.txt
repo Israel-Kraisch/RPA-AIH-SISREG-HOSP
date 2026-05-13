@@ -1,0 +1,223 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=42C15
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais e Unidades disponíveis no SISREG para CER MACRO GFPOLIS C. ESTADUAL - Código 42C15
+; =============================================================================
+
+[4623207]
+nome = ANA SCHMITT HOSPITAL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2778785]
+nome = CENTRO DE CONVIVENCIA SANTANA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[0019445]
+nome = CEPONSC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2596784]
+nome = FUNDACAO HOSPITALAR MUNICIPAL DE CANELINHA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[6680305]
+nome = HOSPITAL BAIA SUL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2418630]
+nome = HOSPITAL DE ALFREDO WAGNER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2596792]
+nome = HOSPITAL DE SAO BONIFACIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[0019305]
+nome = HOSPITAL FLORIANOPOLIS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2691841]
+nome = HOSPITAL GOVERNADOR CELSO RAMOS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2691868]
+nome = HOSPITAL INFANTIL JOANA DE GUSMAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2418967]
+nome = HOSPITAL MONSENHOR JOSE LOCKS DE SAO JOAO BATISTA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2664879]
+nome = HOSPITAL NEREU RAMOS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2418304]
+nome = HOSPITAL NOSSA SENHORA DA CONCEICAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2555646]
+nome = HOSPITAL REGIONAL DE SAO JOSE DR HOMERO MIRANDA GOMES
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2302950]
+nome = HOSPITAL SANTA TERESA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2626659]
+nome = HOSPITAL SAO JOSE DE TIJUCAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2691574]
+nome = HOSPITAL SAO SEBASTIAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[3157245]
+nome = HOSPITAL UNIV PROFESSOR POLYDORO ERNANI DE SAO THIAGO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2302969]
+nome = ICSC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[2706369]
+nome = INSTITUTO DE PSIQUIATRIA IPQ
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+[0019283]
+nome = MATERNIDADE CARMELA DUTRA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO GFPOLIS (42C15)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO GFPOLIS NAO MAPEADA (CER 42C15)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C15
+lesao = leve
+; gravissima grave

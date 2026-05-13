@@ -1,0 +1,107 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420540
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Florianópolis (IBGE 420540)
+; central_regulacao = 42C15 pertence macro Grande Florianópolis ajuste se necessario
+; =============================================================================
+
+[4651219]
+nome = CAPS 24 HORAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[3321452]
+nome = HOF HOSPITAL DE OLHOS DE FLORIANOPOLIS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[4146336]
+nome = HOSPITAL DA CATARATA DE FLORIANOPOLIS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[3426572]
+nome = HOSPITAL E MATERNIDADE DR CARLOS CORREA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[3374548]
+nome = HPM HOSPITAL DA POLICIA MILITAR COMANDANTE LARA RIBAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[0019402]
+nome = IMPERIAL HOSPITAL DE CARIDADE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[6292224]
+nome = INSTITUTO DE OLHOS DE FLORIANOPOLIS II
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+[4564812]
+nome = MULTI HOSPITAL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Florianópolis (IBGE 420540)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE FLORIANOPOLIS NAO MAPEADA (IBGE 420540)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420540
+lesao = leve
+; gravissima grave

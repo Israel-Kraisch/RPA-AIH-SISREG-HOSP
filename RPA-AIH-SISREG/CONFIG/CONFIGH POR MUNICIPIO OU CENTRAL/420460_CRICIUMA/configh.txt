@@ -1,0 +1,80 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420460
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Criciúma (IBGE 420460)
+; central_regulacao = 42C03 pertence macro Carbonífera/Extremo Sul, que inclui Criciúma ajuste se necessario
+; =============================================================================
+
+[6237193]
+nome = CAPS III CRICIUMA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420460
+lesao = leve
+
+[6567274]
+nome = CLINICA DE OLHOS ANTONELLI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420460
+lesao = leve
+
+[2540479]
+nome = CLINIGASTRO CLINICA MEDICA LTDA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420460
+lesao = leve
+
+[9712038]
+nome = HOSPITAL DE OLHOS DE CRICIUMA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420460
+lesao = leve
+
+[0366323]
+nome = HOSPITAL DIA MARIA SCHMITT
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420460
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Criciúma (IBGE 420460)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE CRICIUMA NAO MAPEADA (IBGE 420460)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420460
+lesao = leve
+; gravissima grave

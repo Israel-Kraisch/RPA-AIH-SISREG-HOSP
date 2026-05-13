@@ -1,0 +1,17 @@
+[info_conversor]
+arquivos_processados = 0
+total_registros = 0
+total_ambulatorial = 0
+total_urgencia = 0
+ultima_execucao = 2026-03-18 09:42:29
+
+[info_aih]
+hospital = Hospital
+total_processados = 0
+total_sucesso = 0
+total_erros = 0
+total_duplicados = 0
+tempo_total_execucao = 0:00:44
+tempo_medio_por_registro = 0:00:12
+tempo_total_processamento = 0:00:26
+

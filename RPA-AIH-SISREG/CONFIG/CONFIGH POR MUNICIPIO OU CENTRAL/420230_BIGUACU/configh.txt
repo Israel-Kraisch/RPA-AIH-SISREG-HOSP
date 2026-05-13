@@ -1,0 +1,43 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420230
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades adicionais da Macro Grande Florianópolis
+; Central de Regulação: 42C15 (CER MACRO GFPOLIS / Grande Florianópolis) ajuste se necessario
+; =============================================================================
+
+[7486596]
+nome = HOSPITAL REGIONAL DE BIGUACU HELMUTH NASS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420230
+lesao = leve   
+
+; =============================================================================
+; Seção DEFAULT para cenários com dropdown limitado (fallback)
+; =============================================================================
+
+[DEFAULT]
+nome = HOSPITAL BIGUACU NAO MAPEADO (usar 420230)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420230
+lesao = leve
+; gravissima grave

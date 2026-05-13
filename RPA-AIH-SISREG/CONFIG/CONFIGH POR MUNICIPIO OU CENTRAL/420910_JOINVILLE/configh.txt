@@ -1,0 +1,135 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+[settings]
+ibge_central=420910
+webhook_url = 
+
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Joinville (IBGE 420910)
+; central_regulacao = 420910 para a região Nordeste/Planalto Norte ajuste se necessario
+; =============================================================================
+
+[7728557]
+nome = BOJ FILIAL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[2521431]
+nome = CENTRO HOSPITALAR UNIMED
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[2521296]
+nome = HOSPITAL BETHESDA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[9359397]
+nome = HOSPITAL DA VISAO JOINVILLE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[2521458]
+nome = HOSPITAL DE OLHOS SADALLA AMIN GHANEM
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[2521385]
+nome = HOSPITAL DONA HELENA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[2436469]
+nome = HOSPITAL MUNICIPAL SAO JOSE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[3092399]
+nome = INSTITUTO DE OLHOS DR CARLO WILLE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[9175849]
+nome = OPHTALMUS CLINICA DE OLHOS CC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[0380164]
+nome = UNIDADE AVANCADA ERASTO GAERTNER DE JOINVILLE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+[2511738]
+nome = UPA 24 HORAS ITAUM
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Joinville (IBGE 420910)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE JOINVILLE NAO MAPEADA (IBGE 420910)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420910
+lesao = leve
+; gravissima grave

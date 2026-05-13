@@ -1,0 +1,44 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=421150
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Nova Trento (IBGE 421150)
+; central_regulacao = 42C15 CER Macro Grande Florianópolis ajuste se necessario
+; =============================================================================
+
+[2778831]
+nome = HOSPITAL NOSSA SENHORA DA IMACULADA CONCEICAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 421150
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Nova Trento (IBGE 421150)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE NOVA TRENTO NAO MAPEADA (IBGE 421150)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 421150
+lesao = leve
+; gravissima grave

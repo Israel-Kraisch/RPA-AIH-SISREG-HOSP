@@ -1,0 +1,134 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420240
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Blumenau (IBGE 420240)
+; central_regulacao =  ajuste  o codigo da central se for aplicavel.
+; =============================================================================
+
+[3181308]
+nome = BOTELHO HOSPITAL DIA DA VISAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[3123383]
+nome = CINTILUS MEDICINA NUCLEAR
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[3115739]
+nome = ESADI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[3123251]
+nome = HOSPITAL DE OLHOS DE BLUMENAU
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[2522195]
+nome = HOSPITAL DO PULMAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[2522209]
+nome = HOSPITAL MISERICORDIA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[2558246]
+nome = HOSPITAL SANTA ISABEL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[2558254]
+nome = HOSPITAL SANTO ANTONIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[6001165]
+nome = HOSPITAL UNIVERSITARIO FURB IMAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[7612931]
+nome = ONCOPETSCAN TRATAMENTO E DIAGNOSTICO POR IMAGEM MOLECULAR
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+[2552841]
+nome = POLICLINICA LINDOLF BELL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Blumenau (IBGE 420240)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE BLUMENAU NAO MAPEADA (IBGE 420240)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420240
+lesao = leve
+; gravissima grave

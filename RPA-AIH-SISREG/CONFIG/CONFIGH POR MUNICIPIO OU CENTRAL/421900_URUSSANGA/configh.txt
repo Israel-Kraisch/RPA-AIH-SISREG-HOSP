@@ -1,0 +1,44 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=421900
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Urussanga (IBGE 421900)
+; central_regulacao = 42C03 para a macro Carbonífera  Extremo Sul ajuste se necessario
+; =============================================================================
+
+[2419653]
+nome = HOSPITAL NOSSA SENHORA DA CONCEICAO HNSC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 421900
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Urussanga (IBGE 421900)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE URUSSANGA NAO MAPEADA (IBGE 421900)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 421900
+lesao = leve
+; gravissima grave

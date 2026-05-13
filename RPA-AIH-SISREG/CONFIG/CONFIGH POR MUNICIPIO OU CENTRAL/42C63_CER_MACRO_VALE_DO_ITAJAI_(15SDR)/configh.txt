@@ -1,0 +1,214 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=42C63
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais Unidades disponíveis no SISREG para CER MACRO VALE DO ITAJAÍ 15SDR - Codigo 42C63
+; =============================================================================
+
+[2377659]
+nome = ASSOCIACAO HOSPITALAR ANGELINA MENEGHELLI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2522322]
+nome = ASSOCIACAO RENAL VIDA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[9168141]
+nome = CRBH
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377160]
+nome = FUNDACAO HOSPITALAR ALEX KRIESER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377829]
+nome = HOSPITAL BOM JESUS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377136]
+nome = HOSPITAL DE AURORA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377225]
+nome = HOSPITAL DE POUSO REDONDO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[6273874]
+nome = HOSPITAL DOM BOSCO RIO DOS CEDROS SC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2691884]
+nome = HOSPITAL DR WALDOMIRO COLAUTTI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377616]
+nome = HOSPITAL E MATERNIDADE DONA LISETTE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2537192]
+nome = HOSPITAL E MATERNIDADE OASE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2513838]
+nome = HOSPITAL E MATERNIDADE RIO DO TESTO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2378000]
+nome = HOSPITAL JOANA SCHMITT
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377330]
+nome = HOSPITAL MARIA AUXILIADORA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[7278977]
+nome = HOSPITAL MATEUS CALED PADOIN
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377632]
+nome = HOSPITAL SANTA TEREZINHA DE SALETE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377373]
+nome = HOSPITAL TROMBUDO CENTRAL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377187]
+nome = HOSPITAL VIDAL RAMOS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[9543856]
+nome = IMIGRANTES HOSPITAL E MATERNIDADE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+[2377462]
+nome = SOCIEDADE CULTURAL E BENEFICENTE SAO JOSE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO VALE DO ITAJAÍ (42C63)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO VALE DO ITAJAÍ NAO MAPEADA (CER 42C63)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C63
+lesao = leve
+; gravissima grave

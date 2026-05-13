@@ -1,0 +1,4 @@
+;=====================================================================================================================
+; SUBSTITUA ESTE ARQUIVO PELO ARQUIVO DE SUA CENTRAL, OU CIDADE CASO A REGULAÇÃO SEJA REALIZADA PELO MUNICIPIO
+; VERIFIQUE A PASTA DE SUA CENTRAL OU MUNICIPIO (CONFIGH POR MUNICIPIO OU CENTRAL), APAQUE ESTE ARQUIVO E COPIE O ARQUIVO PARA A PASTA CONFIG, SUBSTITUINDO ESTE ARQUVO
+;=====================================================================================================================

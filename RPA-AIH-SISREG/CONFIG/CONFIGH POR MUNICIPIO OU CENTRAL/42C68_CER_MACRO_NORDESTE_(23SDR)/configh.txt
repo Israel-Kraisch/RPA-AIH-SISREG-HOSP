@@ -1,0 +1,180 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+[settings]
+ibge_central=42C68
+webhook_url = 
+proxies_http = 
+proxies_https = 
+
+
+
+
+
+; =============================================================================
+; Hospitais Unidades disponíveis no SISREG para CER MACRO NORDESTE 23SDR - Codigo 42C68
+; =============================================================================
+
+[2521792]
+nome = HOSPITAL E MATERNIDADE SAGRADA FAMILIA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[6048692]
+nome = HOSPITAL INFANTIL DR JESER AMARANTE FARIA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[7847777]
+nome = HOSPITAL JOAO SCHREIBER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2491311]
+nome = HOSPITAL MUNICIPAL BOM JESUS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[7105088]
+nome = HOSPITAL MUNICIPAL NOSSA SENHORA DA GRACA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2665107]
+nome = HOSPITAL MUNICIPAL SANTO ANTONIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2543079]
+nome = HOSPITAL MUNICIPAL SAO LUCAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2436450]
+nome = HOSPITAL REGIONAL HANS DIETER SCHMIDT
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2492342]
+nome = HOSPITAL SANTO ANTONIO GUARAMIRIM
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2543044]
+nome = HOSPITAL SAO BRAZ
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2664992]
+nome = HOSPITAL SAO LUIZ
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2379163]
+nome = HOSPITAL SAO SEBASTIAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2379333]
+nome = HOSPITAL SAO VICENTE DE PAULO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2436477]
+nome = MATERNIDADE DARCY VARGAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[2379341]
+nome = MATERNIDADE DONA CATARINA KUSS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+[4201485]
+nome = VIDA SPA INSTITUTO DE SAUDE MENTAL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO NORDESTE (42C68)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO NORDESTE NAO MAPEADA (CER 42C68)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C68
+lesao = leve
+; gravissima grave

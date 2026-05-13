@@ -1,0 +1,241 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=42C67
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais Unidades disponíveis no SISREG para CER MACRO SUL 21SDR - Codigo 42C67
+; =============================================================================
+
+[2550938]
+nome = ARMAZEM HOSPITAL SANTO ANTONIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2419246]
+nome = FUNDACAO HOSPITALAR HENRIQUE LAGE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2550881]
+nome = FUNDACAO MEDICO SOCIAL RURAL DE SAO MARTINHO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2420015]
+nome = FUNDACAO SOCIAL HOSPITALAR DE ICARA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2550962]
+nome = HOSPITAL DE CARIDADE DE JAGUARUNA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2419378]
+nome = HOSPITAL DE CARIDADE SAO ROQUE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2386038]
+nome = HOSPITAL DE RIO FORTUNA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2672839]
+nome = HOSPITAL DOM JOAQUIM IMAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2594277]
+nome = HOSPITAL MATERNO INFANTIL SANTA CATARINA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2491710]
+nome = HOSPITAL NOSSA SENHORA DA CONCEICAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2305623]
+nome = HOSPITAL NOSSA SENHORA DE FATIMA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2691515]
+nome = HOSPITAL REGIONAL DEPUTADO AFFONSO GHIZZO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2665883]
+nome = HOSPITAL SANTA TERESINHA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2299569]
+nome = HOSPITAL SANTO ANTONIO IMAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2385880]
+nome = HOSPITAL SAO CAMILO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2540355]
+nome = HOSPITAL SAO JOAO BATISTA HSJB
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2758164]
+nome = HOSPITAL SAO JOSE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2305534]
+nome = HOSPITAL SAO JUDAS TADEU
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2691558]
+nome = HOSPITAL SAO MARCOS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2299836]
+nome = HOSPITAL SAO ROQUE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2778858]
+nome = HOSPITAL SAO SEBASTIAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2305097]
+nome = HSS HOSPITAL SAO SEBASTIAO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+[2691531]
+nome = INSTITUTO NACIONAL DE ENSINO E SAUDE EBENEZER INESE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO SUL (42C67)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO SUL NAO MAPEADA (CER 42C67)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C67
+lesao = leve
+; gravissima grave

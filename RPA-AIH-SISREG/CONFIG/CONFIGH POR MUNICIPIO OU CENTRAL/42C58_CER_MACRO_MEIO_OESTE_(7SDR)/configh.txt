@@ -1,0 +1,313 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=42C58
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais Unidades disponíveis no SISREG para CER MACRO MEIO OESTE 7SDR - Código 42C58
+; =============================================================================
+
+[7274351]
+nome = AFSC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2689863]
+nome = ASSOCIACAO BENEFICENTE HOSPITALAR SAO CAMILO PERITIBA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2379953]
+nome = CLINICA REVIVER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2557975]
+nome = COMPLEXO HOSPITALAR DIAMANTINA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2379767]
+nome = FUNDACAO HOSPITALAR DR JOSE ATHANAZIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[0061271]
+nome = HEMOSER CLINICA DE HEMODIALISE LTDA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2302748]
+nome = HOSP E MAT STA CECILIA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2302780]
+nome = HOSPITAL BENEFICENTE SAO ROQUE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2302101]
+nome = HOSPITAL HELIO ANJOS ORTIZ
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691876]
+nome = HOSPITAL IZOLDE HUBNER DALMORA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2301830]
+nome = HOSPITAL MAICE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691892]
+nome = HOSPITAL MUNICIPAL FREI ROGERIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691450]
+nome = HOSPITAL MUNICIPAL NOSSA SENHORA DO PERPETUO SOCORRO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691833]
+nome = HOSPITAL MUNICIPAL SANTO ANTONIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2380188]
+nome = HOSPITAL NOSSA SENHORA DA PAZ
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2380331]
+nome = HOSPITAL NOSSA SENHORA DAS DORES
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2707470]
+nome = HOSPITAL NOSSA SENHORA DE FATIMA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691493]
+nome = HOSPITAL OSWALDO CRUZ
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691507]
+nome = HOSPITAL PIRATUBA IPIRA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2302500]
+nome = HOSPITAL SALVATORIANO DIVINO SALVADOR
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2557843]
+nome = HOSPITAL SALVATORIANO SANTA MARIA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2302543]
+nome = HOSPITAL SANTA JULIANA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[6249604]
+nome = HOSPITAL SAO CAMILO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2666138]
+nome = HOSPITAL SAO LUCAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2380129]
+nome = HOSPITAL SAO LUCAS IMAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[3039250]
+nome = HOSPITAL SAO MIGUEL IMAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2691566]
+nome = HOSPITAL SAO PEDRO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2300184]
+nome = HOSPITAL SAO ROQUE DE LUZERNA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2304155]
+nome = HOSPITAL SAO ROQUE DE SEARA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2560771]
+nome = HOSPITAL UNIVERSITARIO SANTA TEREZINHA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+[2380242]
+nome = UNIDADE MISTA DE SAUDE NOSSA SENHORA DE SALETE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO MEIO OESTE (42C58)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO MEIO OESTE NAO MAPEADA (CER 42C58)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C58
+lesao = leve
+; gravissima grave

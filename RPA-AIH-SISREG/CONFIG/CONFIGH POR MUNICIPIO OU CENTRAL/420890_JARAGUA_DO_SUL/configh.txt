@@ -1,0 +1,62 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420890
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Jaraguá do Sul (IBGE 420890)
+; central_regulacao = 420910 para a região Nordeste/Planalto Norte ajuste se necessario
+; =============================================================================
+
+[9717463]
+nome = HOSPITAL DA VISAO JARAGUA DO SUL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420890
+lesao = leve
+
+[2306344]
+nome = HOSPITAL JARAGUA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420890
+lesao = leve
+
+[2306336]
+nome = HOSPITAL SAO JOSE
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420890
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Jaraguá do Sul (IBGE 420890)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE JARAGUA DO SUL NAO MAPEADA (IBGE 420890)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420890
+lesao = leve
+; gravissima grave

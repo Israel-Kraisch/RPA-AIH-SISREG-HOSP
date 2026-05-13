@@ -1,0 +1,110 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+
+
+
+[settings]
+ibge_central=42C70
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+
+; =============================================================================
+; Hospitais Unidades disponíveis no SISREG para CER MACRO SERRA 27 - Codigo 42C70
+; =============================================================================
+
+[2300516]
+nome = HOSPITAL DE CARIDADE CORACAO DE JESUS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2504332]
+nome = HOSPITAL E MATERNIDADE TEREZA RAMOS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2300478]
+nome = HOSPITAL FAUSTINO RISCAROLLI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2300435]
+nome = HOSPITAL FREI ROGERIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2665085]
+nome = HOSPITAL NOSSA SENHORA DAS GRACAS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2691477]
+nome = HOSPITAL NOSSA SENHORA DO PATROCINIO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2300486]
+nome = HOSPITAL SANTA CLARA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+[2300885]
+nome = HOSPITAL SAO JOSE DE URUBICI
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO SERRA (42C70)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO SERRA NAO MAPEADA (CER 42C70)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C70
+lesao = leve
+; gravissima grave

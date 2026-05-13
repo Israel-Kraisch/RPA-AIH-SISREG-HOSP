@@ -1,0 +1,79 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=42C65
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para CER MACRO FOZ DO ITAJAÍ (17ª SDR) - Código 42C65
+; =============================================================================
+
+[9184104]
+nome = AACOLHER ASSOCIACAO ACOLHER
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C65
+lesao = leve
+
+[2691469]
+nome = HOSPITAL DE PENHA
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C65
+lesao = leve
+
+[2522691]
+nome = HOSPITAL E MATERNIDADE MARIETA KONDER BORNHAUSEN
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C65
+lesao = leve
+
+[2674327]
+nome = HOSPITAL NOSSA SENHORA DOS NAVEGANTES
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C65
+lesao = leve
+
+[6854729]
+nome = HOSPITAL REGIONAL RUTH CARDOSO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C65
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para CER MACRO FOZ DO ITAJAÍ (42C65)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE MACRO FOZ DO ITAJAÍ NAO MAPEADA (CER 42C65)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 42C65
+lesao = leve
+; gravissima grave

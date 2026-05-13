@@ -1,0 +1,44 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=421570
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Santo Amaro da Imperatriz (IBGE 421570)
+; central_regulacao = 42C15 para a macro Grande Florianópolis ajuste  se necessario
+; =============================================================================
+
+[2418177]
+nome = HOSPITAL SAO FRANCISCO DE ASSIS
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 421570
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Santo Amaro da Imperatriz (IBGE 421570)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE SANTO AMARO DA IMPERATRIZ NAO MAPEADA (IBGE 421570)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 421570
+lesao = leve
+; gravissima grave

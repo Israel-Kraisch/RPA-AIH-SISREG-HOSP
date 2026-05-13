@@ -1,0 +1,62 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420930
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Lages (IBGE 420930)
+; central_regulacao = 42C02 para a macro Meio Oeste/Serra Catarinense ajuste se necessario
+; =============================================================================
+
+[2504316]
+nome = HOSPITAL NOSSA SENHORA DOS PRAZERES
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420930
+lesao = leve
+
+[2662914]
+nome = HOSPITAL SEARA DO BEM MATERNO E INFANTIL
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420930
+lesao = leve
+
+[3590909]
+nome = OFTALMOLAGES
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420930
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Lages (IBGE 420930)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE LAGES NAO MAPEADA (IBGE 420930)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420930
+lesao = leve
+; gravissima grave

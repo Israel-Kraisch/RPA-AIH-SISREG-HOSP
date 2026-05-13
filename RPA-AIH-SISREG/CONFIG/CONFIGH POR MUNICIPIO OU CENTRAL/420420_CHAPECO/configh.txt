@@ -1,0 +1,61 @@
+[GERAL]
+; Lista de códigos de procedimentos que exigem CID '000' (INEXISTENTE)
+; Separe por vírgula, sem espaços extras
+procedimentos_multiplas_cirurgias = 0415010012,0415020069,0415030013,0407040161,0415020050,0415020034
+
+[Executaveis]
+conversor_exe = \\servidor\RPA-AIH-SISREG\CONVERSOR-AIH-VX.exe
+rpa_exe = \\servidor\RPA-AIH-SISREG\S-RPA-AIH-SISREG-HOSP-VX.EXE
+
+[settings]
+ibge_central=420420
+webhook_url = 
+; WebHook para 
+proxies_http = 
+proxies_https = 
+
+; =============================================================================
+; Hospitais / Unidades disponíveis no SISREG para Chapecó (IBGE 420420)
+; central_regulacao = 42C01 pertence a macro Grande Oeste, ajuste se necessario
+; =============================================================================
+[6546358]
+nome = HOSPITAL DE OLHOS CHAPECO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420420
+lesao = leve
+
+[2537397]
+nome = HOSPITAL UNIMED CHAPECO
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420420
+lesao = leve
+
+[3378403]
+nome = SAE SERVICO DE ATENDIMENTO ESPECIALIZADO POLICLINICA MUNIC
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420420
+lesao = leve
+
+; =============================================================================
+; Seção DEFAULT específica para Chapecó (IBGE 420420)
+; Usada quando o CNES do Excel não bater com nenhum dos acima
+; =============================================================================
+
+[DEFAULT]
+nome = UNIDADE CHAPECO NAO MAPEADA (IBGE 420420)
+carater_eletivo = 10
+risco_eletivo = 2
+carater_urgencia = 11
+risco_urgencia = 1
+central_regulacao = 420420
+lesao = leve
+; gravissima grave
