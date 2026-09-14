@@ -11,7 +11,7 @@ RPA-AIH-SISREG
 
 ## Descrição
 
-Robô de automação de processo de digitação, que inclui solicitaçoes de Autorização de Internação Hospitalar no sistema [SISREG](https://sisregiii.saude.gov.br/) encaminhadas  para a Unidade de Regulação da Secretaria Municipal de Joinville pelos Hospitais conveniados que realizam procedimentos cirurgicos pelo SUS.
+Robô de automação de processo de digitação, que inclui solicitaçoes de Autorização de Internação Hospitalar no sistema [SISREG](https://sisregiii.saude.gov.br/) encaminhadas pelos Hospitais conveniados que realizam procedimentos cirurgicos pelo SUS.
 
 ## Pré Requisitos
 Verifique o arquivo de requirements
@@ -76,7 +76,13 @@ Projeto criado e desenvolvido pelo [Núcleo de Tecnologia da Informação da Sec
 
 [x] - Execução em Produção 13/01/2025
 
-[ ] - Desenvolvimento Fase 2 - Interface Grafica e Logs
+[x] - Desenvolvimento Fase 2 - Interface Grafica e Logs
+
+[x] - Implantação em hospitais da rede estadual de SC
+
+[x] - Acompanhamento de distribuição. 
+
+[x] - Conclusão e entrega de codigo fonte a DTIG SC
 
 
 
@@ -113,10 +119,22 @@ Obrigatório publicar o código-fonte das versões modificadas e manter os créd
 
 [Leia a licença completa aqui](LICENSE)
 
-## Project status
-Em DIAGNÓSTICO E REVISÃO DE REQUISITOS. 
+## Status
+Liberado para uso
 
-## Notas desta versão
+## Limitação de Responsabilidade por Modificações:
+O software original é disponibilizado sem garantias de qualquer natureza. Caso o software seja modificado, alterado ou customizado por terceiros, a responsabilidade civil, técnica e penal pelo código modificado passará a ser exclusivamente de quem realizou as alterações. Os autores originais não assumem qualquer obrigação, suporte ou responsabilidade por danos diretos, indiretos ou incidentais decorrentes de versões modificadas do software."
+
+**
+
+## Notas desta versão 7.2
+
+** Atenção - este software foi desenvolvido seguindo modelos e regras estabelecidas pelo SISREG, pela SUR/SC (Superintendencia de Regulação de SC) suas Centrais Regulatórias Regionais e NIR (Nucleos de Internação e Regulação).
+
+ 
+
+Clinica Fixa - Envia todas as solicitações para a Fila de Cirurgia Geral. 
+
 Validações Desabilitadas: O Que São e Por Que Foram Desabilitadas?
 
 No código original, o script automatiza o preenchimento de solicitações de internação hospitalar (AIH - Autorização de Internação Hospitalar) no SISREG. Para isso, ele faz validações automáticas para garantir que o paciente atenda a certos critérios, como residência em um município específico (no caso, Joinville-SC) e tipo de moradia (ex.: não ser nômade, morador de rua ou cigano).
@@ -150,7 +168,7 @@ Impactos:
 Vantagens: O processo fica mais rápido e flexível. Você pode processar mais registros sem interrupções.
 
 Riscos: Se o paciente não for elegível, o SISREG pode rejeitar a solicitação manualmente. 
-Recomendo monitorar os logs e o Excel para ver se há erros reais.
+Monitore os logs e o Excel para ver se há erros reais.
 
 Como Reativar? 
 Basta remover os comentários e testar! 
